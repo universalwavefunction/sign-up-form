@@ -21,7 +21,7 @@
         <form class="sign-up-form" action="index.html" method="post">
           <div class="first-name">
             <label for="fname">First name:</label><br>
-            <input type="text" name="fname" id="fname">
+            <input type="text" required="required" name="fname" id="fname">
           </div>
           <div class="last-name">
             <label for="lname">Last name:</label><br>
@@ -29,19 +29,19 @@
           </div>
           <div class="email">
             <label for="email">Email:</label><br>
-            <input type="email" name="email" id="email">
+            <input type="email" required="required" name="email" id="email">
           </div>
           <div class="phone-number">
             <label for="phone">Phone number:</label><br>
-            <input type="tel" name="phone" id="phone">
+            <input type="tel" required="required" name="phone" id="phone">
           </div>
           <div class="password">
             <label for="password">Password:</label><br>
-            <input type="password" name="password" id="password">
+            <input type="password" required="required" name="password" id="password" onchange="passwordMatch()">
           </div>
           <div class="confirm-pass">
             <label for="confirm-pass">Confirm password:</label><br>
-            <input type="password" name="confirm-pass" id="confirm-pass">
+            <input type="password" required="required" name="confirm_pass" id="confirm_pass" onchange="passwordMatch()">
           </div>
           <div class="create-account">
             <input type="submit" value="Create account" id="submit-button">

@@ -68,6 +68,12 @@ form {
   font-size: 14px;
 }
 
+input:focus {
+  background-color: #DFF2FA;
+  border: 1px solid blue;
+  outline: none;
+}
+
 #submit-button {
   background-color: #F0F8FF;
   border: none;
